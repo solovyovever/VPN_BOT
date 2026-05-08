@@ -20,3 +20,19 @@ source venv/bin/activate
 
 # Установи зависимости
 pip install -r requirements.txt
+
+# Файл .env
+BOT_TOKEN=your_telegram_bot_token
+
+WG_API_URL=http://localhost:10086/api
+WG_API_KEY=your_wgdashboard_api_key
+
+WG_ENDPOINT_DE=your-server:51804
+WG_ENDPOINT_EN=your-server:51805
+WG_ENDPOINT_NL=your-server:51806
+
+WG_DNS=9.9.9.9,1.1.1.1
+TRIAL_DAYS=5
+
+```bash
+python src/bot.py
