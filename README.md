@@ -34,5 +34,5 @@ WG_ENDPOINT_NL=your-server:51806
 WG_DNS=9.9.9.9,1.1.1.1
 TRIAL_DAYS=5
 
-Запуск
+# Запуск
 python src/bot.py
